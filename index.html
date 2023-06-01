@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layout</title>
+</head>
+
+<style>
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        background: #959595;
+        height: 100vh;
+        display: grid;
+        align-items: center;
+    }
+
+    section{
+        background-color: rgb(250, 250, 164);
+        height: 80vh;
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    article{
+        background-color: #333;
+        color: #fafafa;
+        font-size: 2rem;
+        font-weight: bold;
+        height: 250px;
+        width: 150px;
+        border-radius: 10px;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        flex-grow: 1;
+    }
+
+</style>
+
+<body>
+    <section>
+        <article> <p>1</p> </article>
+        <article> <p>2</p> </article>
+        <article> <p>3</p> </article>
+        <article> <p>4</p> </article>
+    </section>
+</body>
+</html>
